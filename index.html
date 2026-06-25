@@ -1,465 +1,281 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>Coder Dipesh</title>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6742163013224351"
-     crossorigin="anonymous"></script>
-	
-	<!--  meta tags -->
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="author" content=" Dipesh Gautam">
-	<meta name="keywords"
-		content="coder dipesh, dipesh gautam, online calculator, class 12 pdf book, garamani ,web designer in birtamod , DGALL" />
-	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1.0, uszer-scalable=0">
-	<meta name="theme-color" content="#d9ffa1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dipesh Gautam — Web Developer &amp; Designer in Jhapa, Nepal</title>
+<meta name="description" content="Dipesh Gautam is a web developer and designer based in Garamani, Jhapa, Nepal, building clean websites and sharing free Class 12 study resources (Nepali, English, Social Studies).">
+<meta name="keywords" content="Dipesh Gautam, coder dipesh, web developer Jhapa, web designer Birtamode, Nepal web developer, class 12 pdf book, online calculator, DGALL">
+<meta name="author" content="Dipesh Gautam">
+<link rel="canonical" href="https://gtmdipesh.com.np/">
+<meta name="robots" content="index, follow">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-	<!--style-->
-	<style>
-		* {
-			font-family: 'Ubuntu', sans-serif;
-			margin: 0;
-			padding: 0;
-		}
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dipesh Gautam — Web Developer & Designer in Jhapa, Nepal">
+<meta property="og:description" content="Web developer and designer from Jhapa, Nepal. Portfolio, skills, services, and free Class 12 study resources.">
+<meta property="og:url" content="https://gtmdipesh.com.np/">
+<meta property="og:image" content="https://gtmdipesh.com.np/icon.png">
+<meta property="og:locale" content="en_US">
 
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dipesh Gautam — Web Developer & Designer in Jhapa, Nepal">
+<meta name="twitter:description" content="Web developer and designer from Jhapa, Nepal. Portfolio, skills, services, and free Class 12 resources.">
+<meta name="twitter:image" content="https://gtmdipesh.com.np/icon.png">
 
-		footer,
-		.text-decoration-none {
-			text-decoration: none;
-			bottom: 0px;
-			left: 0px;
-			text-align: center;
+<link rel="icon" href="/favicon.jpg" type="image/jpeg">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-			width: 100%;
+<!--
+  Google AdSense:
+  Once your AdSense account is approved, add your Auto Ads script tag here, e.g.
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+  Auto Ads places units automatically in well-spaced, content-aware slots —
+  no empty placeholder <div> blocks are needed anywhere on this page.
+-->
 
-			font-weight: bold;
-
-		}
-
-		.bi-instagram {
-
-			background: -webkit-linear-gradient(top right, #ff00e3ca, #f04e17, #ffd808);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-
-		}
-
-		#particles-js {
-			display: block;
-			position: absolute;
-			top: 0;
-			left: 0;
-
-			width: 100%;
-			height: 100vh;
-			z-index: -1;
-		}
-
-		.fullimg {
-			height: 63.7vh;
-
-		}
-
-		div.divimg {
-			background-image: url('https://gdipesh.com.np/static/media/meImg.a7d319592087785f5f6c.jpg');
-			background-size: cover;
-			height: 100vh;
-			width: 100%;
-			filter: blur(.1px);
-			position: relative;
-			z-index: 1;
-
-			background-color: rgba(0, 0, 0, 0.7);
-
-			background-position: center;
-		}
-
-		div>.div-text {
-
-			color: #000000;
-			transform: translate(0px /100px);
-			filter: blur(.2px);
-			font-weight: bold;
-			bottom: 0;
-
-			opacity: 1 !important;
-
-
-
-		}
-
-		@font-face {
-			font-family: DipeshGautam;
-			src: url(https://gtmdipesh.com.np/font/Moyko.ttf)
-		}
-
-		/*     form
- */
-		#status {
-			width: 90%;
-			max-width: 500px;
-			text-align: center;
-			padding: 10px;
-			background: transparent;
-			margin: 0 auto;
-			border-radius: 8px;
-		}
-
-		#status .success {
-			background-color: rgb(154, 217, 60);
-			animation: status 4s ease forwards;
-		}
-
-		#status .error {
-			background-color: red;
-			color: white;
-			animation: status 4s ease forwards;
-		}
-
-		@keyframes status {
-			0% {
-				opacity: 1;
-				pointer-events: all;
-			}
-
-			90% {
-				opacity: 1;
-				pointer-events: all;
-			}
-
-			100% {
-				opacity: 0;
-				pointer-events: none;
-				display: none;
-			}
-		}
-		.navbar-toggler:focus{
-		  box-shadow: none !important;
-		}
-		.navbar-toggler:hover{
-		  color: aqua !important;
-		}
-	</style>
-
-
-
-	<!-- form CSS link -->
-	<link rel="stylesheet" href="https://gtmdipesh.com.np/css/style.css">
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="shortcut icon" type="image/x-icon" href="icon.png">
-	<link rel="icon" href="favicon.jpg" type="image/png">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dipesh Gautam",
+  "url": "https://gtmdipesh.com.np/",
+  "image": "https://gtmdipesh.com.np/icon.png",
+  "jobTitle": "Web Developer & Designer",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Garamani, Birtamode",
+    "addressRegion": "Jhapa",
+    "addressCountry": "NP"
+  },
+  "sameAs": [
+    "https://www.facebook.com/dg2060",
+    "https://www.instagram.com/dipeshgautam_",
+    "https://www.github.com/gdipesh",
+    "https://www.linkedin.com/in/gdipesh",
+    "https://youtube.com/channel/UCTLIL9ZvEJOCRbpEs6T-pzw"
+  ]
+}
+</script>
 </head>
-
 <body>
-	<div id="particles-js"></div>
-	<nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark py-auto  animate__animated animate__fadeIn fs-5">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="https://gtmdipesh.com.np/">Gdipesh</a>
-			<button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active bg-secondary rounded " aria-current="page"
-							href="https://gdipesh.com.np/">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link " href="https://www.linkedin.com/in/gdipesh">Hire me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="pages/downloads">Downloads</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">
-							My skills
-						</a>
-						<ul class="dropdown-menu mx-auto" aria-labelledby="navbarDropdownMenuLink">
-							<li class="dropdown-item bg-warning">web design</li>
-							<li class="dropdown-item bg-warning">web development</li>
 
-						</ul>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">
-							BOOKS
-						</a>
-						<ul class="dropdown-menu mx-auto animate__animated animate__fadeInLeft  "
-							aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="dropdown-item bg-secondary" href="Nepali_Class_12%20-by_gdipeah.pdf"
-									target="_blank">Nepali Book new course class 12</a></li>
+<header>
+  <nav class="nav">
+    <a class="brand" href="#top">Dipesh<span>.</span>Gautam</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-							<li><a class="dropdown-item bg-danger "
-									href="CDC%20Official%20Social-12%20Book%20by%20gdipesh%20.pdf"
-									target="_blank">Social Book New course class 12</a></li>
-							<li><a class="dropdown-item bg-success"
-									href="English_class-12_new_course-2078_coderdipesh%20(1).pdf"
-									target="_blank">English Book New course class 12</a></li>
+<main id="top">
 
-						</ul>
-					</li>
-					<a class="nav-link disable" aria-current="page" href="pages/calculators">Calculator</a>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Garamani · Jhapa · Nepal</span>
+        <h1>Building clean, fast websites from the <em>Terai</em> to the world.</h1>
+        <p class="hero-lede">I'm Dipesh Gautam, a self-taught web developer and designer. I build simple, fast, and reliable websites for individuals and small businesses, and share free study resources for Nepali students.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Start a project</a>
+          <a class="btn btn-ghost" href="#resources">Browse resources</a>
+        </div>
+      </div>
+      <div class="contour-card">
+        <div class="row"><span>Based in</span><span>Jhapa, Nepal</span></div>
+        <div class="row"><span>Focus</span><span>HTML · CSS · JavaScript</span></div>
+        <div class="row"><span>Currently learning</span><span>React.js</span></div>
+        <div class="row"><span>Available for</span><span>Freelance work</span></div>
+      </div>
+    </div>
+    <svg class="contour-divider" viewBox="0 0 1080 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,45 C120,10 220,55 340,30 C460,5 540,50 660,25 C780,0 860,45 980,20 C1030,8 1060,18 1080,12" />
+      <path class="accent" d="M0,52 C150,25 260,58 380,38 C500,18 590,55 700,35 C820,12 900,50 1000,28 C1040,18 1060,25 1080,20" />
+    </svg>
+  </section>
 
-				</ul>
-			</div>
-		</div>
-	</nav>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <img src="image/profile.jpg" alt="Dipesh Gautam, web developer from Jhapa, Nepal" loading="lazy" width="480" height="560">
+      </div>
+      <div>
+        <span class="eyebrow">About</span>
+        <h2>A developer who grew up coding between school and the fields of Jhapa.</h2>
+        <p>I was born and raised in Garamani, Jhapa, in eastern Nepal, and studied at Shree Durga Secondary School. Outside the classroom, I taught myself web design and development one project at a time &mdash; starting with simple static pages and gradually picking up HTML, CSS, JavaScript, and now React.js.</p>
+        <p class="muted">I care about websites that load fast, read clearly, and work well on the small, often slower phones that most people in Nepal actually browse on. That focus on simplicity and speed shapes everything I build.</p>
+        <ul class="fact-list">
+          <li><span>Location</span><span>Garamani, Birtamode, Jhapa</span></li>
+          <li><span>School</span><span>Shree Durga Secondary School</span></li>
+          <li><span>Languages</span><span>Nepali, English</span></li>
+          <li><span>Experience</span><span>Self-taught, project-based</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-	<header>
-		<div class="container-fluid divimg text-center opacity-75">
-			<h1>&nbsp;
-				<a href="#" style="text-decoration:none;"
-					class="typewrite h2 display-3 fw-bold  position-absolute top-50 start-50 translate-middle"
-					data-period="2000"
-					data-type='[ "Hi, Im Dipesh ", "I am Creative.", "I Love to  Design.", "I Love to Develop." ]'>
-					<span class="wrap"></span>
-				</a>
-			</h1>
-			<!-- for animated text -->
-			<script src="js/index.js" type="text/javascript"></script>
-			<div class="display-2 carousel-caption g-5 div-text opacity-100">
-				<center><span style="color:#ffffff;">Developer</span><br>Dipesh Gautam</center>
-			</div>
-		</div>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Skills</span>
+        <h2>What I work with day to day</h2>
+        <p class="muted">A focused toolkit, kept sharp through real projects rather than tutorials alone.</p>
+      </div>
+      <ul class="skills-list">
+        <li class="skill">
+          <div class="skill-top"><span>HTML</span><span>90%</span></div>
+          <div class="skill-bar"><span style="width:90%"></span></div>
+        </li>
+        <li class="skill">
+          <div class="skill-top"><span>CSS</span><span>80%</span></div>
+          <div class="skill-bar"><span style="width:80%"></span></div>
+        </li>
+        <li class="skill">
+          <div class="skill-top"><span>JavaScript</span><span>60%</span></div>
+          <div class="skill-bar"><span style="width:60%"></span></div>
+        </li>
+        <li class="skill">
+          <div class="skill-top"><span>React.js</span><span>40%</span></div>
+          <div class="skill-bar"><span style="width:40%"></span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-	</header>
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Services</span>
+        <h2>How I can help</h2>
+        <p class="muted">Straightforward web work, scoped clearly and delivered without unnecessary complexity.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <span class="tag">Design</span>
+          <h3>Website design</h3>
+          <p>Clean, mobile-first layouts for personal pages, portfolios, and small business sites.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Build</span>
+          <h3>Front-end development</h3>
+          <p>HTML, CSS, and JavaScript builds that are fast, accessible, and easy to maintain.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Support</span>
+          <h3>Maintenance &amp; updates</h3>
+          <p>Content updates, bug fixes, and small improvements for existing static sites.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-	<!--  About us start-->
-	<div class="container-fluid bg-warning text- py-5 my-5 text-primary text-center">
-		<div>
-			<p> I am <strong>Dipesh Gautam</strong> Born and raise in beautiful country<b> Nepal.</b> I am a beginner
-				Web Developer, Designer.
+  <!-- RESOURCES -->
+  <section id="resources">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Free Resources</span>
+        <h2>Class 12 study materials (new course)</h2>
+        <p class="muted">PDF notes I put together for Class 12 students following Nepal's new curriculum. Free to read or download.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <span class="tag">Nepali</span>
+          <h3>Nepali — Class 12</h3>
+          <p>Full notes for the new course Nepali subject, organised chapter by chapter.</p>
+          <a class="dl" href="Nepali_Class_12%20-by_gdipeah.pdf">Download PDF →</a>
+        </article>
+        <article class="card">
+          <span class="tag">Social Studies</span>
+          <h3>Social — Class 12</h3>
+          <p>CDC-aligned Social Studies notes covering the official new-course syllabus.</p>
+          <a class="dl" href="CDC%20Official%20Social-12%20Book%20by%20gdipesh%20.pdf">Download PDF →</a>
+        </article>
+        <article class="card">
+          <span class="tag">English</span>
+          <h3>English — Class 12</h3>
+          <p>New-course English notes, 2078 edition, with summaries and key answers.</p>
+          <a class="dl" href="English_class-12_new_course-2078_coderdipesh%20(1).pdf">Download PDF →</a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-				I Love to develop people's, Website.
-			</p>
-		</div>
-		<!-- Button trigger modal -->
-		<button type="button" class="btn btn-primary w-50 container-fluid" data-bs-toggle="modal"
-			data-bs-target="#staticBackdrop">
-			check Out
-		</button>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">Contact</span>
+        <h2>Tell me about your project</h2>
+        <p class="muted">Send a message, or reach out directly using any of the channels below.</p>
+        <ul class="contact-channels">
+          <li><span class="k">Phone</span><a class="v" href="tel:+9779867993572">+977 9867993572</a></li>
+          <li><span class="k">Facebook</span><a class="v" href="https://www.facebook.com/dg2060" target="_blank" rel="noopener">facebook.com/dg2060</a></li>
+          <li><span class="k">Instagram</span><a class="v" href="https://www.instagram.com/dipeshgautam_" target="_blank" rel="noopener">@dipeshgautam_</a></li>
+          <li><span class="k">GitHub</span><a class="v" href="https://www.github.com/gdipesh" target="_blank" rel="noopener">github.com/gdipesh</a></li>
+          <li><span class="k">LinkedIn</span><a class="v" href="https://www.linkedin.com/in/gdipesh" target="_blank" rel="noopener">linkedin.com/in/gdipesh</a></li>
+        </ul>
+      </div>
+      <form class="feedback" action="https://formsubmit.co/your-email@example.com" method="POST">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+        </div>
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required placeholder="What is this about?">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell me a bit about what you need"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" style="width:fit-content;">Send message</button>
+      </form>
+    </div>
+  </section>
 
-		<!-- Modal -->
-		<div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-			aria-labelledby="staticBackdropLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="staticBackdropLabel">Follow on social media</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body text-success">
-						<b>follow on social media</b><br>
-						<a href="https://www.facebook.com/dg2060" target="dipesh"><button type="button"
-								class="btn border border-primary"><i
-									class="bi bi-facebook text-primary h2"></i><br />Facebook</button></a>
-						<a href="https://www.instagram.com/dipeshgautam_" target="dipesh"><button type="button"
-								class="btn border border-danger  "><i
-									class="bi bi-instagram h2 "></i><br />Instagram</button></a>
-						<a href="https://www.github.com/gdipesh" target="dipesh"><button type="button"
-								class="btn border border-dark"><i class="bi bi-github h2"></i><br>github</button></a>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-						<a href="https://www.facebook.com/dg2060" target="dipesh"><button type="button"
-								class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="top"
-								title="Go To Facebook">Check Out</button></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr class=" mx-5 py-auto ">
-	<div class="container-fluid bg-light my-5" data-aos="fade-up-right">
-		<div class="row clearfix ">
-			<div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-				<figure>
-					<img class="img-fluid rounded" style="min-width:100%; max-height:280px;"
-						src="https://gtmdipesh.com.np/Durga.jpg" alt="about" />
-				</figure>
-			</div>
-			<div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-block justify-content-center align-item-center "
-				style=" text-align: justify;">
-				<p class=" " style="text-align:justify;">
-				<h1 class="h1 text-center text-info">About School</h1>
+</main>
 
-				I study at Shree Durga Secondary school,
-				Garamani Jhapa. My school is at a walking
-				distance from my house!
-				The building of my school is two storeyed.It
-				is painted in light blue color on inside and
-				outside.There are 25 rooms
-				in our school. There is also a library and a
-				computer lab. There are about 1500 students
-				in our school. I love my school very much and
-				all teachers are trained and qualified. And students
-				are also well disciplined.
-				</p>
-				<br />
-				<a class="" href="https://www.facebook.com/durgamavi2012">
-					<button type="button" class="btn btn-outline-primary">Check Out</button>
-				</a>
-				</p>
-			</div>
-		</div>
-	</div>
+<footer>
+  <div class="wrap footer-row">
+    <span>© <span id="year"></span> Dipesh Gautam · Garamani, Jhapa, Nepal</span>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="sitemap.xml">Sitemap</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
 
-	<hr class=" mx-5 my-auto py-auto ">
-	<h1 class="h1 display-2 mx-auto my-3 py-5 text-center "> About Us !</h1>
-	<hr class=" mx-5 py-auto ">
-	<div class="mx-2  display-1" data-aos="fade-down">
-		<h1 class="fs-1 fw-bold display-1 text-center text-primary" style="  font-family:DipeshGautam;">My Skills:</h1>
-		<h4 class="text-info h3 ">HTML</h4>
-		<div class="progress">
-			<div class="progress-bar fw-bold" role="progressbar" style="width: 90%;" aria-valuenow="25"
-				aria-valuemin="0" aria-valuemax="100">90%</div>
-		</div><br />
-		<h4 class="text-info h3 ">CSS</h4>
-		<div class="progress">
-			<div class="progress-bar fw-bold bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="25"
-				aria-valuemin="0" aria-valuemax="100">80%</div>
-		</div>
-		<br />
-		<h4 class="text-info h3 ">Java Script</h4>
-		<div class="progress ">
-			<div class="progress-bar fw-bold bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="25"
-				aria-valuemin="0" aria-valuemax="100">60%</div>
-		</div>
-		<br />
-		<h4 class="text-info h3 ">ReactJs</h4>
-		<div class="progress ">
-			<div class="progress-bar fw-bold bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="25"
-				aria-valuemin="0" aria-valuemax="100">40%</div>
-		</div>
-
-	</div>
-	<hr class=" mx-5">
-	<h1 class="h1 display-2 mx-auto my-3 py-5 text-center "> Send Feedback Or Message !!</h1>
-	<hr class=" mx-5 py-auto ">
-
-	<section class="mx-auto my-5 px-auto py-3 rounded container-fluid bg-light" data-aos="fade-right">
-		<div class="container" id="contact">
-			<form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form" class="needs-validation"
-				novalidate>
-
-				<div class="form-group ">
-					<label for="firstName" class="form-label"> Full Name</label><br>
-					<input type="text" id="firstName" class="form-control " name="fullName" required>
-					<div class="invalid-feedback">
-						Please write your Name
-					</div>
-
-				</div>
-				<div class="form-group">
-					<label for="email">Email</label><br>
-					<input type="email" id="email" class="form-control " name="email" required>
-					<div class="invalid-feedback">
-						Please write valid Email before send
-					</div>
-
-				</div>
-
-				<div class="form-group">
-					<label for="subject" class="form-label">Subject</label><br>
-					<input type="text" id="subject" class="form-control " name="Subject" required>
-					<div class="invalid-feedback">
-						Please write Subject
-					</div>
-
-				</div>
-
-
-				<div class="form-group">
-					<label for="massage" class="form-label">Message</label><br>
-					<textarea name="massage" class="form-control" id="massage" cols="30" rows="10" required></textarea>
-					<div class="invalid-feedback">
-						Please leave a message
-					</div>
-				</div>
-
-
-				<input type="submit" class="btn-xl btn-info text-light btn my-3 mx-auto" id="my-form-button"
-					value="Send">
-			</form>
-		</div>
-		<div id="status"></div>
-
-	</section>
-	<!--Start of Tawk.to Script-->
-	<script src="./js/tawk.js"></script>
-	<!-- <script type="text/javascript">
-		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-		(function () {
-			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-			s1.async = true;
-			s1.src = 'https://embed.tawk.to/62903d6c7b967b11799179b5/1g41mvssm';
-			s1.charset = 'UTF-8';
-			s1.setAttribute('crossorigin', '*');
-			s0.parentNode.insertBefore(s1, s0);
-		})();
-	</script> -->
-	<!--End of Tawk.to Script-->
-
-	<footer
-		class=" bg-light sticky-top fixed-buttom d-flex justify-content-center  text-decoration-none footer  btn btn-group    ">
-		<a href="https://facebook.com/dg2060" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-facebook btn-primery btn-s  mx-2"></i> </a>
-		<a href="https://instagram.com/dipeshgautam_" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-instagram btn-primery mx-2 btn-s "></i> </a>
-		<a href="https://github.com/gdipesh" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-github btn-light rounded-circle mx-2 btn-s "></i> </a>
-		<a href="https://youtube.com/channel/UCTLIL9ZvEJOCRbpEs6T-pzw" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-youtube text-danger rounded  mx-2 px-2 btn-xl "></i> </a>
-
-		<a href="https://www.linkedin.com/in/gdipesh" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-linkedin btn-primery rounded  mx-2 px-2 btn-s "></i> </a>
-		<a href="tel:9867993572" class="text-decoration-none ">&nbsp;<i
-				class="bi bi-telephone-fill text-dark rounded  mx-2 px-2 btn-xs "></i> </a>
-	</footer>
-
-	<!-- partical.js -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-	<script type="text/javascript" src="js/partical.js"></script>
-	<!-- Optional JavaScript; choose one of the two! -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-		crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-		crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://gtmdipesh.com.np/contact.js"></script>
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
-	<!--	local bootstrap js start-->
-	<!--	local bootstrap js end-->
-
-	<!-- Option 2: Separate Popper and Bootstrap JS -->
-
-	<!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-   -->
-
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript">  </script>
-	<script>
-		AOS.init();
-		AOS.refresh();
-	</script>
-
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    const isOpen = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+</script>
 </body>
-
 </html>
